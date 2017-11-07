@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+body {
+    background-color: #ff99cc;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color:#ffffff;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 0 0 10px 0;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+nav li {
+    display: inline;
+    padding: 8px 5px;
+}
+
+li a {
+    border: 2px dotted #000000;
+    background-color:  #bfff80;
+    text-decoration: none; 
+    text-align: center;
+    padding: 5px; 
+    border-radius: 5px;  
+}
+
+li a:hover {
+    color:  #ff4da6;    
+}
+
+.align-left {
+    float: left;
+    margin: 10px;
+}
+
+.align-right {
+    float: right;
+    margin: 10px;
+}
+
+section {
+    margin: 50px 200px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img {
+    
+    height: auto;
+    width: auto;
+    
+    max-width: 500px;
+    max-height: 500px;
+    
+}
