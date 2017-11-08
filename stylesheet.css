@@ -12,7 +12,15 @@ header {
     border-radius: 5px;
     padding: 0 0 10px 0;
     text-align: center;
+    
+    
+}
+
+h1 {
     font-family: 'Lobster', cursive;
+    font-size: 2em;
+    text-shadow: 4px 4px 4px #aaa;
+    
 }
 
 nav li {
@@ -33,6 +41,42 @@ li a:hover {
     color:  #ff4da6;    
 }
 
+
+
+section {
+    margin: 50px 200px;
+    text-align: center;
+    background-color:  #e6b3ff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h2 {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+img {
+    
+    height: auto;
+    width: auto;
+    
+    max-width: 400px;
+}
+
+p {
+    padding: 5px;
+    font-family: Verdana, sans-serif;
+    font-size: 1.25em;
+}
+
+#small-gif {
+    height: auto;
+    width: 500px;
+}
+
 .align-left {
     float: left;
     margin: 10px;
@@ -41,22 +85,4 @@ li a:hover {
 .align-right {
     float: right;
     margin: 10px;
-}
-
-section {
-    margin: 50px 200px;
-    text-align: center;
-    background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-img {
-    
-    height: auto;
-    width: auto;
-    
-    max-width: 500px;
-    max-height: 500px;
-    
 }
